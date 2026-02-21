@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Version Control
+.git/
+
+# IDEs
+.vscode/
+.idea/
+
+# General
+*.log
