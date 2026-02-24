@@ -21,7 +21,7 @@ Currently, this extension is not published to the Chrome Web Store. To install i
 
 1. Clone or download this repository to your local machine:
    ```bash
-   https://github.com/janak21/X-Focus-Mode.git
+   git clone https://github.com/janak21/X-Focus-Mode.git
    ```
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. Toggle on **"Developer mode"** in the top right corner.
