@@ -2,6 +2,9 @@
 
 A sleek, premium Chrome Extension designed to eliminate distractions on X (formerly Twitter) and provide a pure, focused reading experience. 
 
+![X Focus Mode Demo](./Demo-X-Focus-Mode.gif)
+
+
 ## Features
 X Focus Mode transforms the default X interface into a minimalist reading environment.
 * **Hide Sidebars**: Instantly removes the left navigation menu and the right timeline (trends, "Who to follow", etc.).
