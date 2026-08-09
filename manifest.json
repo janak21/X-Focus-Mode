@@ -5,11 +5,13 @@
   "description": "Hide sidebars on X (Twitter) for a distraction-free reading experience.",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "downloads"
   ],
   "host_permissions": [
     "*://*.twitter.com/*",
-    "*://*.x.com/*"
+    "*://*.x.com/*",
+    "*://*.twimg.com/*"
   ],
   "icons": {
     "16": "icon16.png",

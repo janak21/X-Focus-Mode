@@ -34,6 +34,55 @@ p {
   gap: 12px;
 }
 
+.export-section {
+  width: 100%;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-label {
+  margin-bottom: 10px;
+  color: #8b98a5;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.download-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.download-button {
+  padding: 10px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e7e9ea;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.download-button:hover {
+  border-color: rgba(29, 155, 240, 0.65);
+  background: rgba(29, 155, 240, 0.2);
+}
+
+.download-button:active {
+  transform: scale(0.98);
+}
+
+.download-button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
 .toggle-row {
   display: flex;
   align-items: center;
@@ -108,9 +157,19 @@ input:checked+.slider:before {
 }
 
 #statusText {
-  font-size: 15px;
+  margin: 10px 0 0;
+  font-size: 12px;
   font-weight: 600;
   color: #8b98a5;
-  min-width: 32px;
-  text-align: left;
+  line-height: 1.4;
+  min-height: 17px;
+  text-align: center;
+}
+
+#statusText.error {
+  color: #f48771;
+}
+
+#statusText.success {
+  color: #7ee2a8;
 }
